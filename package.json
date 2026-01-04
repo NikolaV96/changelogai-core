@@ -1,0 +1,25 @@
+{
+  "name": "@changelogai/core",
+  "version": "0.1.1",
+  "description": "Framework-agnostic core SDK for ChangelogAI",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "dotenv": "^17.2.3"
+  }
+}
